@@ -1,0 +1,257 @@
+@import url(reset.css);
+
+header {
+    float: left;
+    width: 100%;
+    height: auto;
+
+    color: #F3EEEE;
+
+}
+
+p,
+ul,
+li,
+div,
+h2 {
+    color: #F3EEEE;
+    text-decoration: none;
+}
+
+h2,
+h3 {
+    background-color: #363945;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main {
+    float: left;
+    width: 100%;
+    height: auto;
+
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height: auto;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.center {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1000px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #911d0e;
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+section {
+    float: right;
+    width: 660px;
+    min-height: 340px;
+    border-radius: 5px;
+    background-color: #911d0e;
+}
+
+aside {
+    float: left;
+    width: 330px;
+    min-height: 340px;
+    border-radius: 5px;
+    background-color: #911d0e;
+
+}
+
+body {
+    background-image: url("estufoto.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+article {
+    float: left;
+    width: 640px;
+    padding: 10px;
+
+
+
+}
+
+.sidebar {
+    float: left;
+    width: 310px;
+    padding: 10px;
+    color: #F3EEEE;
+    text-decoration: none;
+
+}
+
+.sidebar:hover {
+    background-color: #363945;
+    border-radius: 5px;
+}
+
+.image:hover {
+    transform: scale(1.3);
+}
+
+[open] summary {
+    position: absolute;
+    bottom: -1.5em;
+    left: 0;
+}
+
+summary::before {
+    content: "Show More";
+    background-color: #363945;
+    cursor: pointer;
+}
+
+[open] summary::before {
+    content: "Show Less";
+}
+
+details {
+    display: inline;
+}
+
+.more-text {
+    position: relative;
+    margin-bottom: 2em;
+    
+}
+
+table,
+th,
+td {
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.subheading div {
+    display: none;
+}
+
+
+.subheading:hover div {
+    display: block;
+
+}
+
+a {
+    color: #F3EEEE;
+    text-decoration: none;
+
+}
+
+#menu {
+    width: 150px;
+    height: 100%;
+
+    color: white;
+    float: left;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#menu ul li ul {
+    display: none;
+}
+
+#menu ul li.submenu {
+    position: relative
+}
+
+#menu ul li.submenu ul {
+    float: left;
+    width: 310px;
+    padding: 10px;
+    border-radius: 5px;
+
+
+}
+
+#menu ul li.submenu:hover ul {
+    display: inline-block;
+
+}
+
+.background:hover {
+    float: none;
+    padding: 10px;
+    width: 300px;
+
+    background-color: #363945;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    font: .9rem 'Fira Sans', sans-serif;
+    text-align: center;
+    padding: 5px 0;
+
+
+}
+
+input[type='submit'],
+label {
+    margin-top: 1rem;
+    color: #F3EEEE;
+
+}
+
+input[type='submit'] {
+    background-color: #363945;
+    border: 5px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download {
+    float: right;
+    width: 620px;
+    padding: 10px
+}
+
+.download:hover {
+    background-color: #363945;
+    border-radius: 5px;
+}
+
+td:hover{
+    background-color: #363945;
+    border-radius: 5px;
+    
+}
